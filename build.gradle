@@ -1,6 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
+mainClassName = "chen.Excercise3"
+
 repositories {
    mavenCentral()
 }
@@ -15,4 +17,14 @@ task sequencehelp << {
   println " or "
   println " 'Triangle' following an integer of choice "
   println "To print the result of either the Lazy Caterer number or the Triangle number"
+}
+
+run {
+    try {
+        systemProperties System.getProperties()
+	     args System.getProperty("args").split()
+    } catch (Exception e) {
+        // Do nothing
+    }
+	
 }
