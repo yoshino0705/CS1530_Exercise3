@@ -1,6 +1,5 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
-import chen.Excercise3;
 
 public class Excercise3Test {
 	@Test
