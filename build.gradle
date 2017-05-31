@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "chen.Excercise3"
+mainClassName = "Excercise3"
 
 repositories {
    mavenCentral()
